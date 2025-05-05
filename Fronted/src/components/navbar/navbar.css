@@ -1,0 +1,62 @@
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 8px 4%;
+    background: whitesmoke;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar .Logo {
+    width: max(10%, 90px);
+}
+
+.navbar .Profile-container {
+    position: relative;
+    display: inline-block;
+    margin-left: auto; 
+}
+
+.Profile {
+    width: 50px;
+}
+
+.Dropdown {
+    position: absolute;
+    top: 60px; 
+    margin-left: 0;
+    margin-right: 10px;
+    
+
+   
+  
+}
+
+.Logout-btn {
+   
+    background: transparent;
+    font-size: 14px;
+    color: #49557e;
+    border: 2px solid tomato; 
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 4px;
+  
+   
+    
+    
+}
+
+.Logout-btn:hover {
+    background-color:tomato;
+    color: aliceblue;
+    
+}

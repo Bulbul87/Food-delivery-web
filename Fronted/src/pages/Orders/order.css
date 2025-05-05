@@ -1,0 +1,114 @@
+.order-add{
+margin-top: 90px;
+margin-right: 8px;
+}
+.order-item {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 16px;
+  border: 2px solid #ff6f61;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  justify-items: center;
+  margin-left: 40px;
+
+}
+
+.order-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.order-items-food,
+.order-item-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.order-item-name {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.order-item-address {
+  margin-bottom: 8px;
+  color: #666;
+  text-align: left;
+}
+
+.order-item select {
+  background-color: #ffe8e4;
+  border: 1px solid #ff6f61;
+  width: 140px;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.order-item select:hover {
+  background-color: #ffd9d2;
+}
+
+.order-item select:focus {
+  outline: none;
+  box-shadow: 0 0 4px #ff6f61;
+}
+
+.order-item div {
+  transition: all 0.3s ease;
+  padding: 5px;
+}
+
+.order-item div:hover {
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+
+@media (max-width: 1000px) {
+  .order-item {
+    grid-template-columns: 0.7fr 2fr 1fr;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  .order-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .order-item-name {
+    font-size: 14px;
+  }
+
+  .order-item select {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .order-item {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .order-item img {
+    margin: 0 auto;
+  }
+
+  .order-item select {
+    width: 100%;
+  }
+}

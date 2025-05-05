@@ -1,0 +1,125 @@
+.add-form-container {
+  width: 80%;
+  margin: 50px auto;
+  margin-top: 100px;
+  color: #4a4a4a;
+  font-size: 16px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+}
+
+.add-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.add-product-name,
+.add-product-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+}
+
+.add-product-name input,
+.add-product-description textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #333;
+outline-color: tomato;
+  resize: vertical;
+}
+
+.add-product-description textarea {
+  min-height: 100px;
+}
+
+.add-category-price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.add-category-price select,
+.add-category-price input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  outline-color: tomato;
+  box-sizing: border-box;
+}
+
+.add-category-price select {
+  flex: 1;
+  max-width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.add-category-price input {
+  flex: 1;
+  max-width: 120px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.add-img-upload img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+}
+
+.add-btn {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  padding: 14px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-btn:hover {
+  background-color: #ff3d30;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.add-btn:active {
+  background-color: #e53935;
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
