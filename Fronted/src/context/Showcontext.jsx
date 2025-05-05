@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
   const [food_list, setfoodlist] = useState([]);
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [role, setRole] = useState(localStorage.getItem("role"));
-  const url = "https://food-delivery-web-backend-g9l2.onrender.com";
+  const url = "http://localhost:4000";
 
   // add cart
   const addtocart = async (itemId) => {
