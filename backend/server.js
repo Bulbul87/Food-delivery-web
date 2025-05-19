@@ -29,6 +29,6 @@ app.get("/", (req, resp) => {
     resp.send("Api working")
 })
 app.listen(port, () => {
-    console.log(`server started on http://localhost:${port}`)
+    console.log(`Server running on https://food-delivery-web-fronted.onrender.com:${port}`)
 })
 
