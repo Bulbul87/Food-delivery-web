@@ -3,7 +3,7 @@
   margin: 30px auto;
   width: 80%;
 
-  background: url("D:\All folders\FOOD-DEL-PROJECT\Fronted\src\assets\food_9.png") no-repeat;
+  background: url("/food_9.png") no-repeat;
   background-size: contain;
   position: relative;
 }
