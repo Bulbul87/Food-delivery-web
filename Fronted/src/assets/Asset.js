@@ -13,5 +13,5 @@ export const assets ={
     upload_area,
     parcel_icon
 }
-
-export const url = 'https://localhost:4000';
+export const url = 'https://food-delivery-web-backend-g9l2.onrender.com';
+// export const url = 'https://localhost:4000';
